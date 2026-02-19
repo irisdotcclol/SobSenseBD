@@ -2493,16 +2493,17 @@ function mainapi:CreateGUI()
 	addBlur(window)
 	addCorner(window)
 	makeDraggable(window)
-	local logo = Instance.new('ImageLabel')
+	local logo = Instance.new('TextLabel')
 	logo.Name = 'VapeLogo'
-	logo.Size = UDim2.fromOffset(62, 18)
-	logo.Position = UDim2.fromOffset(11, 10)
+	logo.Size = UDim2.fromOffset(100, 20)
+	logo.Position = UDim2.fromOffset(11, 8)
 	logo.BackgroundTransparency = 1
-	logo.Image = getcustomasset('newvape/assets/new/guivape.png')
-	logo.ImageColor3 = select(3, uipallet.Main:ToHSV()) > 0.5 and uipallet.Text or Color3.new(1, 1, 1)
+	logo.Text = 'SobSense v0.1'
+	logo.TextColor3 = select(3, uipallet.Main:ToHSV()) > 0.5 and uipallet.Text or Color3.new(1, 1, 1)
+	logo.TextSize = 14
+	logo.FontFace = uipallet.FontSemiBold
+	logo.TextXAlignment = Enum.TextXAlignment.Left
 	logo.Parent = window
-	local logov4 = Instance.new('ImageLabel')
-	logov4.Name = 'V4Logo'
 	logov4.Size = UDim2.fromOffset(28, 16)
 	logov4.Position = UDim2.new(1, 1, 0, 1)
 	logov4.BackgroundTransparency = 1
