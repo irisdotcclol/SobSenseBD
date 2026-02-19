@@ -30,4 +30,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/irisdotcclol/SobSense
 [Vernumerator](https://devforum.roblox.com/t/predict-projectile-ballistics-including-gravity-and-motion/1842434) - Projectile prediction for Roblox
 <br/>
 [breter98](https://github.com/coolpeter98) - Helping out with Spotify UI
+<br/>
 [irisdotcclol](https://github.com/irisdotcclol) - Bridge Duels maintainer - ketaminecravings on Discord
