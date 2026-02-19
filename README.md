@@ -1,17 +1,10 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./README/vapelogo-white.png">
-    <source media="(prefers-color-scheme: light)" srcset="./README/vapelogo-dark.png">
-    <img alt="vape logo" src="./README/vapelogo.png">
-  </picture>
-</p>
-<h2 align="center">
+
   A Roblox script built from the ground up for your precise needs!
   <br/>
   Rise up to the top while remaining completely untouchable.
 </h2>
 
-## Contacts
+## Developer
 [Discord](https://discord.gg/ZqS836yx9k)
 <br/>
 [Youtube](https://youtube.com/c/7GrandDadVape)
@@ -46,3 +39,4 @@ If its not the supposed utility at fault, please try some troubleshooting steps.
 [Vernumerator](https://devforum.roblox.com/t/predict-projectile-ballistics-including-gravity-and-motion/1842434) - Projectile prediction for Roblox
 <br/>
 [breter98](https://github.com/coolpeter98) - Helping out with Spotify UI
+[irisdotcclol](https://github.com/irisdotcclol) - Updating bridge duels
