@@ -6363,15 +6363,18 @@ textguicolorcustom = textgui:CreateColorSlider({
 ]]
 
 local VapeLabels = {}
-local VapeLogo = Instance.new('ImageLabel')
+local VapeLogo = Instance.new('TextLabel')
 VapeLogo.Name = 'Logo'
-VapeLogo.Size = UDim2.fromOffset(80, 21)
-VapeLogo.Position = UDim2.new(1, -142, 0, 3)
+VapeLogo.Size = UDim2.fromOffset(100, 20)
+VapeLogo.Position = UDim2.new(1, -160, 0, 4)
 VapeLogo.BackgroundTransparency = 1
 VapeLogo.BorderSizePixel = 0
 VapeLogo.Visible = false
 VapeLogo.BackgroundColor3 = Color3.new()
-VapeLogo.Image = getcustomasset('newvape/assets/new/textvape.png')
+VapeLogo.Text = 'SobSense v0.1'
+VapeLogo.TextColor3 = Color3.new(1, 1, 1)
+VapeLogo.TextSize = 14
+VapeLogo.FontFace = uipallet.FontSemiBold
 VapeLogo.Parent = textgui.Children
 
 local lastside = textgui.Children.AbsolutePosition.X > (gui.AbsoluteSize.X / 2)
